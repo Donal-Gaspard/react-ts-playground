@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import { Table, Input, InputNumber, Popconfirm, Form } from "antd";
-import { FormComponentProps } from "antd/lib/form";
+import { Form } from '@ant-design/compatible';
+import '@ant-design/compatible/assets/index.css';
+import { Table, Input, InputNumber, Popconfirm } from "antd";
+import { FormComponentProps } from '@ant-design/compatible/lib/form';
 
 interface Item {
   key: string;
